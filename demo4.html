@@ -16,7 +16,7 @@
             text-align: center;
         }
         .choices{
-            width: 200px;
+            width: 100px;
             height: 55px;
             padding:14px;
             font-size: larger;
@@ -50,24 +50,40 @@
         <hr>
         <br>
 
-        <h3>Does it have a Transom?</h3>
+        <h3>Enter Transom Information</h3>
 
         <br>
 
         <!-- Buttons -->
-        <a href="demo4.html" class="btn btn-success choices">Yes</a>
-
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Shape</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Width</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Height</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
         <hr>
-        <a href="noBid.html" class="btn btn-danger choices">No</a>
+        <h5>Can it be Reused?</h5>
+        <br>
         
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary choices" aria-current="page">Yes</a>
+            
+            <a href="#" class="btn btn-primary choices">No</a>
+          </div>
 
         <br>
         <br>    
         <hr><br>
         <a href="Help" class="btn btn-info choices">Help</a>
 
-        <br>
-        <br><br><br><br><br><br><hr>
+        
+        <br><br><hr>
         <div class="footer">
             Incredible installations - 2021
         </div>
